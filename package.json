@@ -1,0 +1,25 @@
+{
+  "name": "node-demo-practice",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengnan1018/node-demo-practice.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "zhengnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhengnan1018/node-demo-practice/issues"
+  },
+  "homepage": "https://github.com/zhengnan1018/node-demo-practice#readme",
+  "devDependencies": {
+    "jade": "^1.11.0"
+  }
+}

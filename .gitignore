@@ -1,0 +1,15 @@
+_Store目录下的所有文件
+.DS_Store
+
+#忽略node_modules目录下的所有文件
+node_modules
+npm-debug.log
+
+#仅仅忽略 demo/.svn文件
+demo/.svn/
+.sass-cache
+
+#忽略所有以.swp结尾的文件
+*.swp
+.sw*
+.idea/*
