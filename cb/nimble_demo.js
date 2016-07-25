@@ -9,15 +9,15 @@ flow.series([
     }, 1000)
   },
   function(callback) {
-    console.log('I am exec second');
     setTimeout(function() {
-    callback();
+      console.log('I am exec second');
+      callback();
     }, 800)
   },
   function(callback) {
     setTimeout(function() {
-      callback();
       console.log('I am exec third');
+      callback();
     }, 500)
   }
 ])

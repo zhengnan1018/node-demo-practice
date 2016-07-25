@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/zhengnan1018/node-demo-practice#readme",
   "devDependencies": {
+    "htmlparser": "^1.7.7",
     "jade": "^1.11.0",
-    "nimble": "0.0.2"
+    "nimble": "0.0.2",
+    "request": "^2.74.0"
   }
 }
