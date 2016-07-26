@@ -1,20 +1,6 @@
 
-<html>
-  <head>
-    <title>Todo List</title>
-  </head>
-  <body>
-    <h1>Todo list</h1>
-    <ul>
-      <li></li>
-    </ul>
-    <form method="post" action="/">
-      <p>
-        <input type="text" name="item"/>
-      </p>
-      <p>
-        <input type="submit" value="Add Item"/>
-      </p>
-    </form>
-  </body>
-</html>
+<form method="post" action="/" enctype="multipart/form-data">
+  <p><input type="text" name="name"/></p>
+  <p><input type="file" name="file"/></p>
+  <p><input type="submit" value="Upload"/></p>
+</form>
