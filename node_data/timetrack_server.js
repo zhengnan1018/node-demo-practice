@@ -1,3 +1,5 @@
+// http://blog.csdn.net/u013310075/article/details/51857398
+// http://jingyan.baidu.com/article/a378c960b8f828b328283033.html
 var http = require('http')
 var work = require('./timetrack')
 var mysql = require('../node_modules/mysql')
