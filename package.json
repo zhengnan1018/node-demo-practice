@@ -24,6 +24,7 @@
     "htmlparser": "^1.7.7",
     "jade": "^1.11.0",
     "mongodb": "^2.2.4",
+    "mongoose": "^4.5.7",
     "mysql": "github:felixge/node-mysql",
     "nimble": "0.0.2",
     "redis": "^2.6.2",
