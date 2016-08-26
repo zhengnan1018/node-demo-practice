@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Photos
+  p Express stock photo application.
+  ul(class="photoListWrap")
+  each photo in photos
+    li(class="li")
+      p #{photo.name}
+      img(src=photo.imagePath)
