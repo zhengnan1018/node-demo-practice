@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 Photo Upload
+  p Upload a photo to your account below.
+  form(method='post', enctype='multipate/form-data')
+    p
+      input(type='text', name=#{photo.name})
