@@ -6,7 +6,7 @@ mongoose.connect('mongodb://localhost/photo_app', function(err) {
 
 var schema = new mongoose.Schema({
   name: String,
-  imagePath: String,
+  path: String,
 })
 
 module.export = mongoose.model('Photo', schema)

@@ -5,4 +5,8 @@ block content
   p Upload a photo to your account below.
   form(method='post', enctype='multipate/form-data')
     p
-      input(type='text', name=#{photo.name})
+      input(type='text', name='photo.name', placeholder="Name", class='form-control')
+    p
+      input(type='file', name='photo.path', class='form-control')
+    p
+      input(type='submit', value='Upload', class='form-control')

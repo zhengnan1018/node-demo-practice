@@ -12,6 +12,7 @@ var photosListData = [
     imagePath: path.join(__dirname, '../public/images/photo_2.jpg')
   }
 ]
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
@@ -19,6 +20,10 @@ router.get('/', function(req, res, next) {
 
 router.get('/photos', function(req, res, next) {
   res.render('photo', { photos: photosListData })
+})
+
+router.get('/photo/upload', function(req, res, next) {
+  res.render('upload')
 })
 
 module.exports = router;
